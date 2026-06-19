@@ -6,17 +6,28 @@ Permite autenticar professores, cadastrar turmas, visualizar atividades e gerenc
 
 - IDE utilizada: Visual Studio Code (VS Code)
 
+## Servidor de Aplicação
+
+- Node.js v22
+
+## Banco de Dados
+
+- SGBD: MySQL (XAMPP)
+
 ## Tecnologias
 
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 - Node.js
+- Express
+- Prisma
+- MySQL
 
 | Funcionalidade | Tecnologia |
 |:-|:-:|
-| Estrutura da Interface | HTML |
-| Estilização | CSS |
+| Estrutura da Interface | HTML5 |
+| Estilização | CSS3 |
 | Manipulação da Página | JavaScript |
 | Requisições HTTP | Fetch API |
 | Backend | Node.js + Express |
