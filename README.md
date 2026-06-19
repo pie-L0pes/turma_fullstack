@@ -18,7 +18,7 @@ Permite autenticar professores, cadastrar turmas, visualizar atividades e gerenc
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript
 - Node.js
 - Express
 - Prisma
