@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Principal</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h2 id="nomeProfessor">Professor</h2>
+
+        <button onclick="sair()">Sair</button>
+    </header>
+
+    <main>
+        <div class="topo">
+
+            <button onclick="abrirModal()">Cadastrar turma</button>
+
+        </div>
+
+        <h1>Turmas</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Número
+                    </th>
+
+                    <th>
+                        Nome
+                    </th>
+
+                    <th>
+                        Ações
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody id="lista">
+            </tbody>
+        </table>
+
+    </main>
+
+    <div class="modal" id="modal">
+        <div class="modal-box">
+            <h2>Cadastrar Turma</h2>
+
+            <input id="nomeTurma" placeholder="Nome da turma">
+
+            <div class="acoes">
+                <button onclick="fecharModal()">Cancelar</button>
+
+                <button onclick="cadastrarTurma()">Cadastrar</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/principal.js">
+
+    </script>
+
+</body>
+</html>

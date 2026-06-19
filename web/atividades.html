@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividades </title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h2 id="nomeProfessor">Professor</h2>
+
+        <div>
+            <button onclick="voltar()">Voltar</button>
+            <button onclick="sair()">Sair</button>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="topo">
+            <button onclick="abrirModal()">Cadastrar atividade</button>
+        </div>
+
+        <h1 id="nomeTurma">Turma</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Número
+                    </th>
+
+                    <th>
+                        Descrição
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody id="lista">
+            </tbody>
+        </table>
+
+    </main>
+
+    <div class="modal" id="modal">
+        <div class="modal-box">
+            <h2>Cadastrar Atividade</h2>
+
+            <input id="descricao" placeholder="Descrição da atividade">
+
+            <div class="acoes">
+                <button onclick="fecharModal()">Cancelar</button>
+
+                <button onclick="cadastrarAtividade()">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/atividade.js">
+    </script>
+</body>
+</html>
